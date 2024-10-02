@@ -75,6 +75,8 @@ programa
 		    leia(numero1)
 		    escreva("informe o numero2")
 		    leia(numero2)
+
+		    total = numero1 - numero2
 		}
 		
 	}
@@ -96,7 +98,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1159; 
+ * @POSICAO-CURSOR = 1192; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

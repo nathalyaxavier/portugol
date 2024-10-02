@@ -3,26 +3,20 @@ programa
 	
 	funcao inicio()
 	{
-		real nota1, nota2, nota_final
-
-		escreva("informe a nota1 \n")
-		leia(nota1)
-
-		escreva("informe a nota2\n")
-		leia(nota2)
-
-		nota_final= (nota1 + nota2)
-
-		se( nota_final >=60)
+		inteiro i
+		para(i = 1; i <= 50; i++)
 		{
-			escreva ("NOTA FINAL:" + nota_final)
+			escreva ("*")
 		}
+		escreva("\n")
 
-		senao
+		escreva(" BEM VINDO AO CINEMA \n")
+
+		para(i = 1; i <= 50; i++)
 		{
-			escreva (" REPROVADO")
-			escreva("nota final:" + nota_final)
+			escreva ("*")
 		}
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -30,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 310; 
+ * @POSICAO-CURSOR = 208; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
